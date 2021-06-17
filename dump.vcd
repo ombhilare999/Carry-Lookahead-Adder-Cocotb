@@ -1,0 +1,105 @@
+$date
+	Thu Jun 17 15:31:16 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder $end
+$var wire 4 ! i_a [3:0] $end
+$var wire 4 " i_b [3:0] $end
+$var wire 1 # i_c $end
+$var wire 4 $ w_gc [3:0] $end
+$var wire 4 % w_pc [3:0] $end
+$var wire 4 & w_sum [3:0] $end
+$var wire 5 ' w_c [4:0] $end
+$var wire 5 ( o_s [4:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 (
+b0 '
+b1111 &
+b1111 %
+b0 $
+0#
+b1010 "
+b101 !
+$end
+#2001
+b11110 '
+b10110 (
+b110 &
+b111 $
+b1111 !
+b111 "
+#4001
+b11000 (
+b1000 &
+b1001 $
+b1001 !
+b1111 "
+#6001
+b11100 '
+b10100 (
+b100 &
+b110 $
+b1110 %
+b1110 !
+b110 "
+#8001
+b0 '
+b1101 (
+b1101 &
+b0 $
+b1101 %
+b1 !
+b1100 "
+#10001
+b1111 (
+b1111 &
+b1111 %
+b1110 "
+#12001
+b10000 '
+b10011 (
+b11 &
+b1000 $
+b1011 %
+b1011 !
+b1000 "
+#14001
+b1110 '
+b1000 (
+b1000 &
+b1 $
+b111 %
+b101 !
+b11 "
+#16001
+b11000 '
+b10001 (
+b1 &
+b100 $
+b1101 %
+b100 !
+b1101 "
+#18001
+b0 '
+b1111 (
+b1111 &
+b0 $
+b1111 %
+b1101 !
+b10 "
+#20001
+b11010 '
+b10010 (
+b10 &
+b101 $
+b1101 %
+b101 "
+#22002
