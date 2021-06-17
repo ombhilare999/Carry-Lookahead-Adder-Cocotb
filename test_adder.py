@@ -9,7 +9,7 @@ async def adder_basic_test(dut):
     """Test for 5 + 10"""
     A = 5
     B = 10
-    C = 0 
+    C = 1 
 
     dut.i_a <= A
     dut.i_b <= B

@@ -1,4 +1,4 @@
-# Verification test of fast carry adder using cocotb
+# Verification test of Carry Lookahead Adder using cocotb
 
 - [Installing Cocotb](https://github.com/cocotb/cocotb#installation):
 ```

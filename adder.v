@@ -1,4 +1,4 @@
-//Fast carry adder in verilog
+//Carry Lookahead Adder
 
 `include "full_adder.v"
 

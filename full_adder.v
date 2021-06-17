@@ -1,4 +1,4 @@
-//Fast carry adder in verilog
+//Full bit adder
 
 module full_adder
 (
