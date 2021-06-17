@@ -13,10 +13,10 @@ async def adder_basic_test(dut):
 
     dut.i_a <= A
     dut.i_b <= B
-    dut.i_c <= 0
+    dut.i_c <= C
 
     await Timer(2, units='ns')
-    assert dut.o_s.value == adder_model(A, B), f"Adder result is incorrect: {dut.X.value} != 15"
+    assert dut.o_s.value == adder_model(A, B), f"Adder result is incorrect: {dut.o_s.value} != 15"
 
 @cocotb.test()
 async def adder_randomised_test(dut):
